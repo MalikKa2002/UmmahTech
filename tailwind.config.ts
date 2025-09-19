@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -38,6 +39,16 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+          hover: "hsl(var(--accent-hover))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+          hover: "hsl(var(--success-hover))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -46,6 +57,19 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        // Role-specific colors
+        merchant: {
+          DEFAULT: "hsl(var(--merchant))",
+          foreground: "hsl(var(--merchant-foreground))",
+        },
+        ngo: {
+          DEFAULT: "hsl(var(--ngo))",
+          foreground: "hsl(var(--ngo-foreground))",
+        },
+        customer: {
+          DEFAULT: "hsl(var(--customer))",
+          foreground: "hsl(var(--customer-foreground))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
