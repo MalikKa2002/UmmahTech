@@ -93,10 +93,19 @@ const Index = () => {
               </div>
             </div>
             
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Discover last-minute deals from local merchants and help reduce waste in your community.
-              Great food, products, and services at amazing prices.
+            <p className="text-xl text-muted-foreground mb-6 max-w-2xl mx-auto">
+              Transform surplus into savings while fighting food waste! Connect with local merchants offering 
+              incredible last-minute deals on fresh food, quality products, and essential services. Every purchase 
+              helps reduce waste and supports your neighborhood businesses.
             </p>
+            
+            <div className="bg-card/50 border rounded-lg p-4 mb-8 max-w-xl mx-auto">
+              <p className="text-base text-muted-foreground">
+                🌱 <strong>For the Planet:</strong> Rescue perfectly good items from going to waste<br/>
+                💰 <strong>For Your Wallet:</strong> Save up to 70% on original prices<br/>
+                🤝 <strong>For the Community:</strong> Support local businesses and verified NGOs
+              </p>
+            </div>
 
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
